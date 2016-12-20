@@ -1,0 +1,50 @@
+<html>
+<head>
+
+<title> Oppgave 3 </title> 
+</head>
+
+<body>
+<form action="oppgave3.php" method="get">
+<table>
+<tr>
+<td>Navn: <td/><td><input type="text" name="Navn" /><td/>
+<tr/>
+<tr>
+<td>Adresse : <td/><td> <input type="text" name="Adresse" /><td />
+<tr/>
+<tr>
+<td>Epost : <td/><td><input type="text" name="Epost" /><td />
+<tr/>
+<tr>
+<td>Telefonnummer : <td/><td><input type="text" name="Telefonnummer" /><td />
+<tr/>
+<table/>
+
+  <td>Kundetype:</td>
+</tr>
+    <td><input type="radio" name="kunde" value="registert kunde" /></td>
+    <td> Registert kunde </td>
+<tr>
+    <td><input type="radio" name="kunde" value="ny kunde" /></td>
+    <td> Ny kunde </td>
+<tr>
+    <td><select size="5" name="type[]" multiple="true">
+        <option value="0">Frakt</option>
+        <option value="0">Om produkter lys</option>
+        <option value="0">Om priser</option>
+        <option value="0">Om reklamasjon</option>     
+		<option value="0">Annet</option>  
+    </select></td>
+</tr>          
+
+</table>
+
+<textarea name="beskjed" rows="5" cols="25">Tekst her...</textarea> 
+<br/> <input type="submit" name="Send" value="Send" />
+
+
+ 
+</form>
+</body>
+</html>

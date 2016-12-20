@@ -1,0 +1,50 @@
+<html>
+<head>
+
+<title> Side 1 OBLIG 4 </title> 
+</head>
+
+<body>
+<form action="side2.php" method="get">
+<table>
+<tr>
+<td>Navn: <td/><td><input type="text" name="Navn" /><td/>
+<tr/>
+<tr>
+<td>Adresse : <td/><td> <input type="text" name="Adresse" /><td />
+<tr/>
+<tr>
+<td>Epost : <td/><td><input type="text" name="Epost" /><td />
+<tr/>
+<tr>
+<td>Telefonnummer : <td/><td><input type="text" name="Telefonnummer" /><td />
+<tr/>
+<table/>
+<table>
+  <td>Kundetype:</td>
+</tr> <br/>
+    <td><input type="radio" name="kunde" value="registert kunde" /></td>
+    <td> Registert kunde </td>
+<tr>
+    <td><input type="radio" name="kunde" value="ny kunde" /></td>
+    <td> Ny kunde </td>
+<tr>
+    <td><select size="1" name="type">
+        <option value="Frakt">Frakt</option>
+        <option value="Om produkter">Om produkter </option>
+        <option value="Om priser">Om priser</option>
+        <option value="Reklamasjon">Om reklamasjon</option>     
+		<option value="Annet">Annet</option>  
+    </select></td>
+</tr>          
+
+</table>
+
+<textarea name="beskjed" rows="5" cols="25">Tekst her...</textarea> 
+<br/> <input type="submit" name="Send" value="Send" />
+
+
+ 
+</form>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Navn : sdjkogisdfjoøgjdfoaghu9hq<br/>Adresse : jkwh<br/>Epost : ett@live.no<br/>Telefonnummer : 911<br/>Du er : registert kunde<br/>Du har valgt spørsmåltype : Frakt<br/>Din beskjed : Tekst her...<br/>
